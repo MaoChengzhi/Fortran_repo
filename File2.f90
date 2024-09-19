@@ -30,7 +30,11 @@ implicit none
 real, intent(in) :: radius
 ! real, external ::area_of_square
 
+<<<<<<< HEAD
 ! sth in another branch
+=======
+! I did sth in the main branch
+>>>>>>> main
 
 interface
 real function area_0(length, b)
