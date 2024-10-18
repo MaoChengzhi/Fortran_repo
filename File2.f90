@@ -16,7 +16,7 @@ print*,"area_0"
 
 end function area_0
 
-
+! sth in main old version
 
 
 
@@ -28,17 +28,17 @@ end function area_0
 real function area_1(radius)
 implicit none
 real, intent(in) :: radius
-! real, external ::area_of_square
+real, external ::area_0
 
 ! I did sth in the main branch
 
-interface
-real function area_0(length, b)
-implicit none
-real, intent(in) :: length
-real, intent(in), optional :: b
-end function area_0
-end interface
+! interface
+! real function area_0(length, b)
+! implicit none
+! real, intent(in) :: length
+! real, intent(in), optional :: b
+! end function area_0
+! end interface dfadjsk jaskldj fhasdi fsadf asdfsa df
 
 
 
