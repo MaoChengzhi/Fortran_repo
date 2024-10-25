@@ -44,6 +44,8 @@ end interface
 
 area_1 = area_0(radius)**2
 print*, "area_1"
-area_1=radius*radius
+area_1=radius*radius  
+
+! sadfoasjdflasdjofji sdfjashd fhask
 
 end function area_1
