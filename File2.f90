@@ -56,4 +56,7 @@ area_1=radius*radius
 
 !sadfasdf
 
+
+! b2 only
+
 end function area_1
